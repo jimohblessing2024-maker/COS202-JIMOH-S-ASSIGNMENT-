@@ -1,2 +1,2 @@
 # COS202-JIMOH-S-ASSIGNMENT-
-This repository contains my python programming assignment (A mathematical calculator code and a pocket CGPA) and this code demonstrates the using  of fundamental programming concepts like variables ,conditional statemes.... 
+This repository contains my python programming assignment (A mathematical calculator code and a pocket CGPA) and this code demonstrates the using  of fundamental programming concepts like variables ,conditional statements. 
