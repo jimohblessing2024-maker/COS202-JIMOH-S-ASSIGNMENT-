@@ -13,21 +13,33 @@ at your will. Using the powerful provision of selection control statements in PY
 develop a PERSONAL POCKET CGPA Calculator (PPC).
 
 SOLUTION 1
+print("")
+
+print("   MATHEMATICAL CALCULATOR")
 
 print("")
-print("   MATHEMATICAL CALCULATOR")
-print("")
+
 while True:
     print("\nMenu")
+    
     print("1. Addition (+)")
+    
     print("2. Subtraction (-)")
+    
     print("3. Multiplication (*)")
+    
     print("4. Division (/)")
+    
     print("5. Modulus (%)")
+    
     print("6. Power (^)")
+    
     print("7. Square Root")
+    
     print("8. Clear")
+    
     print("9. OFF")
+    
     choice = input("Choose an option: ")
     if choice == "9":
         print("Calculator Closed.")
@@ -43,12 +55,10 @@ while True:
         b = float(input("Enter second number: "))
         if choice == "1":
             print("Answer =", a + b)
-
         elif choice == "2":
             print("Answer =", a - b)
         elif choice == "3":
             print("Answer =", a * b)
-
         elif choice == "4":
             if b != 0:
                 print("Answer =", a / b)
@@ -56,11 +66,13 @@ while True:
                 print("Cannot divide by zero.")
         elif choice == "5":
             print("Answer =", a % b)
-
         elif choice == "6":
             print("Answer =", a ** b)
     else:
         print("Invalid Choice.")
+
+
+      
 
 
 SOLUTION 2
