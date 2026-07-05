@@ -53,9 +53,7 @@ while True:
             if b != 0:
                 print("Answer =", a / b)
             else:
-                print("Cannot divide by zero.")How was you day?
-Ermmm 
-Please I want to ask you something about the assignment
+                print("Cannot divide by zero.")
         elif choice == "5":
             print("Answer =", a % b)
 
